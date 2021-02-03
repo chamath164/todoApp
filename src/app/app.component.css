@@ -1,0 +1,17 @@
+
+.btn-success{
+  margin-left: 10px;
+}
+
+.btn-danger{
+  margin-left: 10px;
+}
+
+.card-container{
+  flex-direction: column;
+
+}
+
+.card{
+  justify-content: space-evenly;
+}

@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'todoApp';
+  title = 'ToDo App';
+  todoList = [];
+  todoItem = '';
+
+  // tslint:disable-next-line:typedef
+  addItem(){
+    this.todoList.push(this.todoItem);
+  }
+
+  // tslint:disable-next-line:typedef
+  deleteItem(index){
+    this.todoList.splice(index, 1);
+  }
 }
